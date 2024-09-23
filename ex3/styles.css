@@ -21,6 +21,15 @@ body {
     flex-basis: 18%;
     padding: 10px; /* Add padding to the columns for better spacing */
 }
+.column h3 {
+    font-size: 1.5rem; /* Increase the font size for the headings */
+    margin-bottom: 10px; /* Add space between the heading and the content */
+    color: #000;
+    font-weight: bold;
+}
+.column li:hover {
+    text-decoration: underline;
+}
 
 .figma-column h3 {
     font-size: 3rem; /* Increase the font size for the Figma heading */
@@ -72,11 +81,13 @@ ul li {
 
 .social-links li:hover {
     color: #007BFF; /* Change text color on hover */
+    text-decoration: none;
 }
 
 .social-links li a:hover {
     color: #007BFF; /* Hover state for the text */
 }
+
 
 @media (max-width: 768px) {
     .container {
