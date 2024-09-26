@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    padding-right: 30px;
+    flex: 0 0 40%; /* Đặt chiều rộng của form là 40% */
+    position: relative;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form input[type="text"], .form input[type="password"] {
+    width: 100%;
+    padding: 12px; /* Tăng padding để làm cho ô nhập liệu cao hơn */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15; /* Tăng kích thước phông chữ */
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #067bf8, #01306a); /* Gradient từ xanh nhạt sang xanh đậm */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background 0.3s ease; /* Thêm hiệu ứng chuyển đổi mượt mà */
+}
+
+.form button:hover {
+    background: linear-gradient(to right, #00316d, #0027d4); /* Gradient từ xanh đậm sang xanh đậm hơn khi hover */
+}
+
+.form a {
+    text-decoration: none;
+    color: #bebebe;
+    display: block;
+}
+
+.text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.passf {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.image {
+    flex: 0 0 60%; /* Đặt chiều rộng của ảnh là 60% */
+    padding: 20px; /* Đảm bảo padding không làm tăng chiều rộng */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:0px;
+}
+
+.image img {
+    max-width: 100%; /* Đảm bảo ảnh không vượt quá kích thước container */
+    height: auto; /* Giữ tỷ lệ ảnh */
+    object-fit: cover; /* Đảm bảo ảnh bao phủ toàn bộ container mà không bị méo */
+}
+
+.link-to-home {
+    display: block;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    text-decoration: none;
+}
