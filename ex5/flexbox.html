@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ebe9e9;
+            padding: 30px;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .column {
+            flex: 1;
+            padding: 175px;
+            padding-top: 5px;
+            padding-left: 10px;
+            box-sizing: border-box;
+            text-align: left;
+            margin: 0 0px; /* Adds small gap between columns */
+        }
+
+        .column-1 {
+            background-color: #b0b0b0; /* Darker Gray */
+        }
+
+        .column-2 {
+            background-color: #cccccc; /* Medium Gray */
+        }
+
+        .column-3 {
+            background-color: #e0e0e0; /* Lighter Gray */
+        }
+
+        footer {
+            background-color: #ebe9e9;
+            padding: 10px;
+            font-size: 14px;
+            width: 100%;
+        }
+    </style>
+    <title>Flexbox Layout with Different Grays</title>
+</head>
+<body>
+
+    <header>Header</header>
+
+    <div class="container">
+        <div class="column column-1">Column 1</div>
+        <div class="column column-2">Column 2</div>
+        <div class="column column-3">Column 3</div>
+    </div>
+
+    <footer>Footer</footer>
+
+</body>
+</html>
