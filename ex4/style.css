@@ -63,17 +63,17 @@
 }
 
 .image {
-    flex: 0 0 60%; /* Đặt chiều rộng của ảnh là 60% */
+    flex: 0 0 50%; /* Đặt chiều rộng của ảnh là 60% */
     padding: 20px; /* Đảm bảo padding không làm tăng chiều rộng */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top:0px;
+    padding-top: 0px;
 }
 
 .image img {
     max-width: 100%; /* Đảm bảo ảnh không vượt quá kích thước container */
-    height: auto; /* Giữ tỷ lệ ảnh */
+    height: 700px; /* Giữ tỷ lệ ảnh */
     object-fit: cover; /* Đảm bảo ảnh bao phủ toàn bộ container mà không bị méo */
 }
 
