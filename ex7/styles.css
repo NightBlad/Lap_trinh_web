@@ -1,0 +1,167 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #293144; /* Background color */
+    font-family: Arial, sans-serif; /* Font family */
+    color: white;
+}
+
+/* Banner Section */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Text Section */
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 30%;
+}
+
+.brand-logo img {
+    width: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    position: absolute; /* Thêm thuộc tính position */
+    top: 2%;
+    left: 2%;
+}
+
+.product-title {
+    font-size: 56px; /* Giảm kích thước font */
+    margin-bottom: 10px; /* Điều chỉnh khoảng cách */
+}
+
+.rating img {
+    width: 100px; /* Giảm kích thước hình ảnh */
+    height: auto; /* Giữ tỷ lệ khung hình */
+    margin: 20px 0; /* Điều chỉnh khoảng cách */
+}
+
+.description {
+    font-size: 18px; /* Giảm kích thước font */
+    margin: 10px 0; /* Điều chỉnh khoảng cách */
+}
+
+.price {
+    font-size: 24px; /* Giảm kích thước font */
+    margin-top: 20px; /* Điều chỉnh khoảng cách */
+    margin-bottom: 30px; /* Điều chỉnh khoảng cách */
+    font-weight: 550;
+    font-family: Montserrat, sans-serif;
+}
+
+.cta-button {
+    background-color: #FF3366;
+    padding: 10px 20px; /* Giảm kích thước padding */
+    font-size: 16px; /* Giảm kích thước font */
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 150px; /* Điều chỉnh chiều rộng */
+    border-radius: 30px; /* Bo góc */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Thêm bóng đổ */
+}
+
+/* Social Media Icons */
+.social-media-icons {
+    display: flex;
+    position: absolute; /* Đặt vị trí tuyệt đối */
+    bottom: 30px; /* Đặt phần tử ở bên dưới */
+    left: 100px; /* Đặt phần tử ở bên trái */
+}
+.social-media-icons img {
+    width: 30px;
+    margin-right: 15px;
+}
+/* Image Section */
+.image-section {
+    display: flex;
+    position: absolute; /* Đặt vị trí tuyệt đối */
+    right: 3%; /* Đặt phần tử ở bên phải */
+    top: 8%; /* Căn giữa theo chiều dọc */
+    transform: translateY(-50%); /* Điều chỉnh để căn giữa chính xác */
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+}
+/* Watch Trailer Button */
+.watch-trailer {
+    position: absolute;
+    bottom: 40px;
+    right: 20px;
+    width: 200px;
+}
+
+.trailer-button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.trailer-button img:first-child {
+    width: 60px;
+}
+
+.trailer-button img:last-child {
+    width: 120px;
+}
+
+/* Right Background Image */
+.right-image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 110%;
+}
+
+.right-image img {
+    height: 100%;
+    object-fit: cover;
+}
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Chiều rộng toàn màn hình */
+    height: 100%; /* Chiều cao toàn màn hình */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; /* Đặt lớp này trước lớp .right-image */
+}
+
+.center-image {
+    max-width: 100%; /* Điều chỉnh kích thước hình ảnh */
+    height: 40%; /* Giữ tỷ lệ khung hình */
+}
+.product-images {
+    display: flex;
+    position: absolute;
+    top: -30%;
+    left: 27%;
+    z-index: 3;
+    transform: scale(0.7); /* Làm nhỏ phần tử xuống 80% */
+}
+.arrow {
+    position: absolute; /* Đặt vị trí tuyệt đối */
+    right: 2%; /* Đặt phần tử ở bên phải */
+    top: 50%; /* Căn giữa theo chiều dọc */
+    transform: translateY(-50%) scale(0.8); /* Điều chỉnh để căn giữa chính xác */
+}
