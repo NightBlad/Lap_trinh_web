@@ -70,6 +70,12 @@ body {
     width: 150px; /* Điều chỉnh chiều rộng */
     border-radius: 30px; /* Bo góc */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Thêm bóng đổ */
+    z-index: 9999;
+}
+.cta-button:hover {
+    display: inline-block;
+    transition: transform 0.2s ease-in-out; /* Animation for hover effect */
+    transform: scale(1.1); /* Slight scale-up on hover */
 }
 
 /* Social Media Icons */
